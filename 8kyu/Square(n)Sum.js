@@ -70,3 +70,19 @@ console.log(result);
 	// *Calls the squareSum function with the array [1, 2, 2].
 	// console.log(result);
 	//* Outputs the result of the squareSum function to the console.
+
+
+// another approach which is more step by step to understanding the sum accumulation and iteraition 
+	
+// function squareSum(numbers) {
+// 	let sum = 0;
+
+// 	for (let i = 0; i < numbers.length; i++) {
+// 		sum += numbers[i] ** 2;
+// 	}
+
+// 	return sum;
+// }
+
+// const result = squareSum([1, 2, 2]);
+// console.log(result); // Outputs 9 (1^2 + 2^2 + 2^2)
