@@ -35,3 +35,15 @@ function past(h, m, s) {
 
 // const result = past(0, 1, 1);
 // console.log(result);
+
+
+function isEven(num) {
+	if (num % 2 === 0) {
+		return "Even";
+	} else {
+		return "Odd";
+	} 
+}
+
+console.log(isEven(4)); // Output should be true
+console.log(isEven(7)); // Output should be false
