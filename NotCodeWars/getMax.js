@@ -24,3 +24,11 @@ console.log(getMax(12, 9)); // Output should be 12
 function getMax(num1, num2) {
 	return Math.max(num1, num2);
 }
+
+
+function findMax(arr) {
+	return Math.max(...arr);
+}
+
+// the spread operator is necessary for this to work because I originally thought it was just arr but it gave an error. 
+// Math.max(...arr); // This spreads the elements of arr as arguments to Math.max()

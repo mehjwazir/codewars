@@ -15,3 +15,14 @@ function isEven(num) {
 
 console.log(isEven(4)); // Output should be true
 console.log(isEven(7)); // Output should be false
+
+
+// another way to do this 
+
+// function isEven(num) {
+// 	if (num % 2 === 0) {
+// 		return true;
+// 	} else {
+// 		return false;
+// 	}
+// }
